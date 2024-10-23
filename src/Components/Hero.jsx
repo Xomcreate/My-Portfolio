@@ -1,7 +1,7 @@
 import React from 'react';
-import heroImage from '../assets/mypics2.jpeg'; // Fallback image
+import heroImage from '../assets/prisca.jpeg'; // Fallback image
 import heroVideo from '../assets/video2.mp4'; // Video for the background
-import profilePic from '../assets/mypics2.jpeg'; // Your profile picture
+import profilePic from '../assets/prisca.jpeg'; // Your profile picture
 
 const Hero = () => {
   const name = "Ojimba Prisca".split(""); // Split name into individual characters
