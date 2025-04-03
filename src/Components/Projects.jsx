@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // Importing the images
-import project1Image from '../assets/project1.jpg';
+import project1Image from '../assets/cap2.jpg';
 import project2Image from '../assets/capture1.jpg';
 import project3Image from '../assets/project2.jpg';
 
@@ -17,6 +17,14 @@ const projectsData = [
     title: 'Portfolio Website',
     description: 'A personal portfolio to showcase my work, built with React and Tailwind CSS.',
     image: project2Image, // Using imported image
+    liveDemo: '#',
+    codeLink: '#',
+  },
+
+  {
+    title: 'A Catholic Church Site',
+    description: 'A catholic church site showcasing the details and information about the church.',
+    image: project1Image, // Using imported image
     liveDemo: '#',
     codeLink: '#',
   },
